@@ -1,0 +1,15 @@
+body {background-color:black;}
+
+
+.auth-container {
+    margin-top: 5em;
+    padding: 2em;
+    border: 1px solid #cf08c5;
+    border-radius: 0.4em;
+    box-shadow: 2px 4px 20px #bd08bd;
+    
+}
+
+.login-col {
+    border-left: 1px solid black;
+}

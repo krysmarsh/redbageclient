@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  background-image: url('../src/assets/images/mediapic1.jpg')
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+* {
+    scrollbar-width: thin;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.router-button {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.router-link {
+    text-decoration: none;
+    color: #105493;
+    border-bottom: 1px solid #105493;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.router-card {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+
+/* .MuiCardActionArea-root a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87)
+} */
+
+
